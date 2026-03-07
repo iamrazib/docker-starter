@@ -33,7 +33,7 @@
 ###  The host is your actual machine - your laptop, desktop, or cloud VM where Docker Engine is installed. A network port on your host OS - e.g., macOS, Windows, or Linux.
 
     docker run --rm -p 3000:8080 YOUR_DOCKERHUB_ID/push-pull:latest
-### open http://localhost:8080 or <ec2-machine-ip>:8080
+### open http://localhost:3000 or <ec2-machine-ip>:3000
 
 # Check your running containers:
     docker ps
